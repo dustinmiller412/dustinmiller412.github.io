@@ -14,6 +14,10 @@ html {
   width: 100%;
   height: 100vh;
 }
+
+.projects-section {
+  background-color: #23282f;
+}
 .custom-font {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -55,6 +59,7 @@ html {
     display: none;
   }
 }
+
 
 .navbar-burger span {
   width: 30px;
@@ -116,17 +121,16 @@ figure span {
 figure,
 img {
   overflow: hidden;
-  cursor: pointer;
   -webkit-transition: all ease 300ms;
   transition: all ease 300ms;
 }
 
-figure:hover img {
+/* figure:hover img {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
-}
+} */
 
 figure:hover span {
   display: block;
@@ -144,6 +148,13 @@ figure:hover span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.about-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure the container takes the full height of its parent */
 }
 
 
