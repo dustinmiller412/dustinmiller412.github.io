@@ -93,6 +93,31 @@ html {
   opacity: 0.3;
 }
 
+.contact-sorry {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.contact-sorry {
+  text-align: center;
+}
+
+.contact-sorry h3 {
+  margin-bottom: 20px;
+}
+
+.contact-sorry a {
+  display: inline-block;
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.ri-linkedin-box-fill {
+  font-size: 64px; /* Adjust the icon size as needed */
+}
+
 .is-large {
   padding: 10rem 0;
 }
