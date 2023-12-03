@@ -69,6 +69,14 @@ html {
   background-color: #23282f;
 }
 
+.ri-external-link-line {
+  font-size: 16px;
+}
+
+.ri-github-line {
+  font-size:16px
+}
+
 .mobile-menu {
   color: #fcfcfc;
   -webkit-animation: menuAnimation 300ms ease;
